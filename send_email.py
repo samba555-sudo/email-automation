@@ -38,7 +38,7 @@ def send_email(subject, receiver_email,):
         f"""\
         <html>
             <body>
-                <p>Hi Rod,</p>
+                <p>Hi,</p>
                 <p>This is an initial test.</p>
             </body>
         </html>
@@ -54,7 +54,7 @@ def send_email(subject, receiver_email,):
 if __name__ == "__main__":
     send_email(
         subject="CSP Bi-Weekly Accomplishments",
-        receiver_email="sambamjalloh@gmail.com",
+        receiver_email="example@email.com",
     )
         
 
